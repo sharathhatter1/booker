@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="tests.authenticate.AuthSuccessTest"></class>
+            <class name="tests.authenticate.AuthFailureTest"></class>
+            <class name="tests.booking.CreateBookingTest"></class>
+            <class name="tests.booking.DeleteBookingTest"></class>
+            <class name="tests.booking.UpdateBookingTest"></class>
+            <class name="tests.ping.PingVerify"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
